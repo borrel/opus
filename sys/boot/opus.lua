@@ -44,7 +44,7 @@ local function run(file, ...)
 end
 
 _G._syslog = function() end
-_G.OPUS_BRANCH = 'develop-1.8'
+_G.OPUS_BRANCH = 'head-tk2'
 
 local s, m = pcall(run, 'sys/apps/shell.lua', 'sys/kernel.lua', ...)
 
